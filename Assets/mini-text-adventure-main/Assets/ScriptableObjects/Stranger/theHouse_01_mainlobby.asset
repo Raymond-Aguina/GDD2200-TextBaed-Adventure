@@ -10,27 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: oldMan_09_badEnding
+  m_Name: theHouse_01_mainlobby
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: oldMan_09_badEnding
-  SpeakerName: Old Man
-  DialogueText: '"Why not check your pocket?"'
+  NodeId: theHouse_01_mainlobby
+  SpeakerName: MC
+  DialogueText: '"Alright I''m in. Time to look around."'
   Choices:
-  - ChoiceText: '[...]'
-    NextNodeId: oldMan_10_death
+  - ChoiceText: '[Enter Main Office]'
+    NextNodeId: oldMan_02_accepted
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
-  - ChoiceText: '[Run Away]'
-    NextNodeId: oldMan_10_death
+  - ChoiceText: '[Enter Kitchen]'
+    NextNodeId: theHouse_03_theKitchen
     ReloadScene: 0
-    RequiredFlags: []
+    RequiredFlags:
+    - enterkitchen_strangerHelp
     ForbiddenFlags: []
     GrantFlags: []
-  - ChoiceText: '[Attack]'
-    NextNodeId: oldMan_10_death
+  - ChoiceText: '[Back]'
+    NextNodeId: stranger_04_checking
     ReloadScene: 0
-    RequiredFlags: []
+    RequiredFlags:
+    - 
     ForbiddenFlags: []
     GrantFlags: []

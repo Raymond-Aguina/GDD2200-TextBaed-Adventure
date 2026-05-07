@@ -10,23 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: oldMan_02_accepted
+  m_Name: endingScammed
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: oldMan_02_accepted
-  SpeakerName: Old Man
-  DialogueText: '"Thank you! I think I lost it near the old well."'
+  NodeId: endingScammed
+  SpeakerName: Stranger
+  DialogueText: '"Thank you man, as an appretiation of your help. Here''s 2 dollars,
+    now don''t spend it all in one place!"
+
+    [Ending 2:Good ending'
   Choices:
-  - ChoiceText: '[GO TO OLD WELL]'
-    NextNodeId: oldMan_04_theWell
+  - ChoiceText: '["Sure, I''ll help."]'
+    NextNodeId: oldMan_02_accepted
     ReloadScene: 0
-    RequiredFlags:
-    - accepted_oldManQuest
+    RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
-  - ChoiceText: '[LEAVE]'
-    NextNodeId: oldMan_05_continueJourney
-    ReloadScene: 0
-    RequiredFlags:
+    GrantFlags:
     - accepted_oldManQuest
-    ForbiddenFlags: []
-    GrantFlags: []

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: stranger_04_checking
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: stranger_04_checking
+  SpeakerName: Stranger
+  DialogueText: '"Were you able to get the heirloom yet?"'
+  Choices:
+  - ChoiceText: '["Not yet i''m still trying."]'
+    NextNodeId: theHouse_01_mainlobby
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags:
+    - gottenHeirloom_theSafe
+    GrantFlags: []
+  - ChoiceText: '["The safe needs a code, what is it?]'
+    NextNodeId: stranger_05_newQuest
+    ReloadScene: 0
+    RequiredFlags:
+    - getCode_safeQuest
+    ForbiddenFlags:
+    - gottenHeirloom_theSafe
+    GrantFlags:
+    - enterkitchen_strangerHelp
+  - ChoiceText: '["Not yet i''m still trying."]'
+    NextNodeId: choiceMaking_01_choices
+    ReloadScene: 0
+    RequiredFlags:
+    - gottenHeirloom_theSafe
+    ForbiddenFlags: []
+    GrantFlags:
+    - 
+  - ChoiceText: '["Yea I founded it man here you go. Now about that reward?"]'
+    NextNodeId: finishGame
+    ReloadScene: 0
+    RequiredFlags:
+    - gottenHeirloom_theSafe
+    ForbiddenFlags: []
+    GrantFlags:
+    - 

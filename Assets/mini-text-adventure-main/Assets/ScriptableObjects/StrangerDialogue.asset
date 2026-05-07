@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e649038d9e1dfc249a980e57c5b5a9b6, type: 3}
-  m_Name: OldManDialogue
+  m_Name: StrangerDialogue
   m_EditorClassIdentifier: Assembly-CSharp::DialogueDatabase
   Nodes:
   - {fileID: 11400000, guid: 7d81994e366775f4ca964de55c374733, type: 2}
-  - {fileID: 11400000, guid: e1df0c3b877c5e04db37259949f33e3f, type: 2}
-  - {fileID: 11400000, guid: fc71796a7b298394a8d9e0cdb4da6100, type: 2}
+  - {fileID: 11400000, guid: 12c35a720fca53c4a935513e43d2d8a3, type: 2}
+  - {fileID: 11400000, guid: 8fb4dad73256fd0408a8702927909bdb, type: 2}
   - {fileID: 11400000, guid: a7ead1d6615420f4a8cf548fcc490c67, type: 2}
   - {fileID: 11400000, guid: 9a2fe8d3a5733454d95550e47d842800, type: 2}
   - {fileID: 11400000, guid: 841ccf347b7b55b41bdeecf50ba52fd7, type: 2}

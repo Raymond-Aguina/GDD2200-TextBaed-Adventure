@@ -10,15 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: oldMan_05_continueJourney
+  m_Name: stranger_01_intro
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: oldMan_05_continueJourney
-  SpeakerName: Narration
-  DialogueText: You continue to walk along the road, the Old Man appears in front
-    of you.
+  NodeId: stranger_01_intro
+  SpeakerName: Stranger
+  DialogueText: '"Hey man do you think you can help me out with something?"'
   Choices:
-  - ChoiceText: '[...]'
-    NextNodeId: oldMan_07_oldManReprise
+  - ChoiceText: '["Sure man I''ll help you out."]'
+    NextNodeId: stranger_02_accepted
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags:
+    - accepted_strangerQuest
+  - ChoiceText: '["Fuck off man."]'
+    NextNodeId: stranger_03_rejected
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

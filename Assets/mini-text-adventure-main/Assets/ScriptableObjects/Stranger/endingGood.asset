@@ -10,15 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: oldMan_03_rejected
+  m_Name: endingGood
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: oldMan_03_rejected
-  SpeakerName: Old Man
-  DialogueText: '"I see. Maybe another time."'
+  NodeId: endingGood
+  SpeakerName: Stranger
+  DialogueText: '"Thank you man, as an appretiation of your help. Here''s 2 dollars,
+    now don''t spend it all in one place!"
+
+    [Ending 2:Good ending'
   Choices:
-  - ChoiceText: '[LEAVE]'
-    NextNodeId: oldMan_05_continueJourney
+  - ChoiceText: '["Sure, I''ll help."]'
+    NextNodeId: oldMan_02_accepted
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags: []
+    GrantFlags:
+    - accepted_oldManQuest

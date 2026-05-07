@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
+  m_Name: stranger_05_newQuest
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
+  NodeId: stranger_05_newQuest
+  SpeakerName: Stranger
+  DialogueText: '"Oh yea fuck I completely forgot there was a code. I don''t exactly
+    remember the code but I know that a usb drive in the house has it. Last time
+    I seen it was in the kitchen in a drawer.'
+  Choices:
+  - ChoiceText: '["How do you- You know what fine but just so you know the reward
+      better be high."'
+    NextNodeId: theHouse_01_mainlobby
+    ReloadScene: 0
+    RequiredFlags: []
+    ForbiddenFlags: []
+    GrantFlags: []

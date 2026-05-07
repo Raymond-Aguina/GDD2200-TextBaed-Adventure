@@ -10,25 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
-  m_Name: oldMan_04_theWell
+  m_Name: theHouse_03_theKitchen
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: oldMan_04_theWell
-  SpeakerName: Narration
-  DialogueText: You approach the well, covered in vines.  It doesn't look like it
-    has been used for some time.
+  NodeId: theHouse_02_theKitchen
+  SpeakerName: MC
+  DialogueText: '"Alright now I''m in the kitchen."'
   Choices:
-  - ChoiceText: '[SEARCH AROUND WELL]'
-    NextNodeId: oldMan_06_findRing
+  - ChoiceText: '[Check Drawer]'
+    NextNodeId: theSafe_01_interacting
     ReloadScene: 0
-    RequiredFlags:
-    - accepted_oldManQuest
+    RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags:
-    - itemObtained_oldMansRing
-  - ChoiceText: '[LEAVE]'
-    NextNodeId: oldMan_05_continueJourney
+    GrantFlags: []
+  - ChoiceText: '[Back]'
+    NextNodeId: oldMan_03_rejected
     ReloadScene: 0
     RequiredFlags:
-    - accepted_oldManQuest
+    - usbDrive_gotten
+    ForbiddenFlags: []
+    GrantFlags: []
+  - ChoiceText: '[Back]'
+    NextNodeId: theHouse_01_mainlobby
+    ReloadScene: 0
+    RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []
