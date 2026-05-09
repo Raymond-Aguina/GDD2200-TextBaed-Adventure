@@ -24,5 +24,4 @@ MonoBehaviour:
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags:
-    - accepted_oldManQuest
+    GrantFlags: []

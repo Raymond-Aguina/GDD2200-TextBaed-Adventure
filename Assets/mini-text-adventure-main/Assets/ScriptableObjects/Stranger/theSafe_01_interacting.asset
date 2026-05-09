@@ -30,5 +30,4 @@ MonoBehaviour:
     RequiredFlags:
     - gottenCode_correctCode
     ForbiddenFlags: []
-    GrantFlags:
-    - gottenHeirloom_theSafe
+    GrantFlags: []

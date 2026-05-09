@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
   m_Name: theDrawer_02_opened
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: theSafe_03_correctCode
+  NodeId: theDrawer_02_opened
   SpeakerName: MC
   DialogueText: '"There''s the USB Drive, I guess he really ddin''t want anyone else
     to find the passcode to it. Now lets head back to unlock it.'
