@@ -17,7 +17,7 @@ MonoBehaviour:
   DialogueText: '"Dammit It needs a code."'
   Choices:
   - ChoiceText: '[Input random Code]'
-    NextNodeId: theSafe_01_incorrectCode
+    NextNodeId: theSafe_02_wrongCode
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags:

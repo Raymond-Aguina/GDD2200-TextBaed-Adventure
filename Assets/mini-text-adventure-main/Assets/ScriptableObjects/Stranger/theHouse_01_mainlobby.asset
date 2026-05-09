@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: theHouse_01_mainlobby
   SpeakerName: MC
-  DialogueText: '"Alright I''m in. Time to look around."'
+  DialogueText: '"I''m Inside the house. This place has definitly seen some better
+    days but now I must go down one of these hallways." '
   Choices:
   - ChoiceText: '[Enter Main Office]'
-    NextNodeId: oldMan_02_accepted
+    NextNodeId: theHouse_02_theOffice
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
@@ -32,7 +33,6 @@ MonoBehaviour:
   - ChoiceText: '[Back]'
     NextNodeId: stranger_04_checking
     ReloadScene: 0
-    RequiredFlags:
-    - 
+    RequiredFlags: []
     ForbiddenFlags: []
     GrantFlags: []

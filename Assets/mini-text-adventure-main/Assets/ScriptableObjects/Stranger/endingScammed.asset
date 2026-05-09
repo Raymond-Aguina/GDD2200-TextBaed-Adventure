@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: endingScammed
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: endingScammed
-  SpeakerName: Stranger
-  DialogueText: '"Thank you man, as an appretiation of your help. Here''s 2 dollars,
-    now don''t spend it all in one place!"
+  SpeakerName: Narrator
+  DialogueText: '"You decided to steal  the heirloom and sell it at the pawn shop.
+    After the buyer took a look at it, he said its fake and its only worth a dollar."
 
-    [Ending 2:Good ending'
+    [Ending
+    3: Scammed Ending'
   Choices:
-  - ChoiceText: '["Sure, I''ll help."]'
-    NextNodeId: oldMan_02_accepted
+  - ChoiceText: '[Go Back to the Beginning]'
+    NextNodeId: stranger_01_intro
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []
-    GrantFlags:
-    - accepted_oldManQuest
+    GrantFlags: []

@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
   NodeId: theHouse_02_theOffice
   SpeakerName: MC
-  DialogueText: '"Alright I''m in the Office!"'
+  DialogueText: '"Alright I''m in the Office! Why is there a lot of papers thrown
+    around? Doesn''t matter all i need to get to is the safe."'
   Choices:
   - ChoiceText: '[Check Safe]'
     NextNodeId: theSafe_01_interacting
@@ -29,6 +30,15 @@ MonoBehaviour:
     - usbDrive_gotten
     ForbiddenFlags: []
     GrantFlags: []
+  - ChoiceText: '[Find Key]'
+    NextNodeId: theOffice_01_gottenKey
+    ReloadScene: 0
+    RequiredFlags:
+    - usbDrive_goGet
+    ForbiddenFlags:
+    - drawerKey_gotten
+    GrantFlags:
+    - drawerKey_gotten
   - ChoiceText: '[Back]'
     NextNodeId: theHouse_01_mainlobby
     ReloadScene: 0

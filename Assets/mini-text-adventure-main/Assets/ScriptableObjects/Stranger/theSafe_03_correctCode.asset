@@ -12,19 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
   m_Name: theSafe_03_correctCode
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: stranger_01_intro
-  SpeakerName: Stranger
-  DialogueText: '"Hello traveler.  Can you help me find my lost ring?"'
+  NodeId: theSafe_03_correctCode
+  SpeakerName: MC
+  DialogueText: '"Finally I gotten into the safe. This looks really valuable. I might
+    steal it. But that reward does sound promising. Let me think on the way back.
+    "'
   Choices:
-  - ChoiceText: '["Sure, I''ll help."]'
-    NextNodeId: oldMan_02_accepted
-    ReloadScene: 0
-    RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags:
-    - accepted_oldManQuest
-  - ChoiceText: '["No, sorry."]'
-    NextNodeId: oldMan_03_rejected
+  - ChoiceText: '[Go Back]'
+    NextNodeId: theHouse_02_theOffice
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

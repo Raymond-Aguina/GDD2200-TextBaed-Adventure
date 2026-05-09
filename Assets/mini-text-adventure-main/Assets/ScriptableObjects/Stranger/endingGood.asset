@@ -19,8 +19,8 @@ MonoBehaviour:
 
     [Ending 2:Good ending'
   Choices:
-  - ChoiceText: '["Sure, I''ll help."]'
-    NextNodeId: oldMan_02_accepted
+  - ChoiceText: '[Go Back to the Beginning]'
+    NextNodeId: stranger_01_intro
     ReloadScene: 0
     RequiredFlags: []
     ForbiddenFlags: []

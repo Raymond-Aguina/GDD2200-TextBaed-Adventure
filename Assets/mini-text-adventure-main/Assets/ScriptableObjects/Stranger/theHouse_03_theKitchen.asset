@@ -12,21 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 669b2765012dcf0419ac8691d2bbba10, type: 3}
   m_Name: theHouse_03_theKitchen
   m_EditorClassIdentifier: Assembly-CSharp::DialogueNode
-  NodeId: theHouse_02_theKitchen
+  NodeId: theHouse_03_theKitchen
   SpeakerName: MC
-  DialogueText: '"Alright now I''m in the kitchen."'
+  DialogueText: '"Alright now I''m in the kitchen. All of the drawers and shelves
+    are completely destroyed but one. I''m guessing that is the one that has the
+    USB Drive."'
   Choices:
   - ChoiceText: '[Check Drawer]'
-    NextNodeId: theSafe_01_interacting
+    NextNodeId: theDrawer_01_interact
     ReloadScene: 0
     RequiredFlags: []
-    ForbiddenFlags: []
-    GrantFlags: []
-  - ChoiceText: '[Back]'
-    NextNodeId: oldMan_03_rejected
-    ReloadScene: 0
-    RequiredFlags:
-    - usbDrive_gotten
     ForbiddenFlags: []
     GrantFlags: []
   - ChoiceText: '[Back]'
