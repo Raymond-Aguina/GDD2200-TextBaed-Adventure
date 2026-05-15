@@ -17,7 +17,7 @@ MonoBehaviour:
   DialogueText: '"Thank you man, as an appretiation of your help. Here''s 2 dollars,
     now don''t spend it all in one place!"
 
-    [Ending 2:Good ending'
+    [Ending 2:Good ending]'
   Choices:
   - ChoiceText: '[Go Back to the Beginning]'
     NextNodeId: stranger_01_intro

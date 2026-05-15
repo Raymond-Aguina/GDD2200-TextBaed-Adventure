@@ -38,13 +38,11 @@ MonoBehaviour:
     RequiredFlags:
     - gottenHeirloom_theSafe
     ForbiddenFlags: []
-    GrantFlags:
-    - 
+    GrantFlags: []
   - ChoiceText: '["Yea I founded it man here you go. Now about that reward?"]'
-    NextNodeId: finishGame
+    NextNodeId: endingGood
     ReloadScene: 0
     RequiredFlags:
     - gottenHeirloom_theSafe
     ForbiddenFlags: []
-    GrantFlags:
-    - 
+    GrantFlags: []

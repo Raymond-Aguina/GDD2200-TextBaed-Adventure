@@ -18,7 +18,7 @@ MonoBehaviour:
     After the buyer took a look at it, he said its fake and its only worth a dollar."
 
     [Ending
-    3: Scammed Ending'
+    3: Scammed Ending]'
   Choices:
   - ChoiceText: '[Go Back to the Beginning]'
     NextNodeId: stranger_01_intro
